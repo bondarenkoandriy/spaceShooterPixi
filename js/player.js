@@ -3,7 +3,7 @@ export default class Player {
     this.app = app;
     this.projectiles = projectiles;
     this.ammoText = ammoText;
-    this.sprite = PIXI.Sprite.from("../assets/ship/static.png");
+    this.sprite = PIXI.Sprite.from("assets/ship/static.png");
     this.sprite.y = this.app.screen.height - 100;
     this.sprite.x = this.app.screen.width / 2;
     this.sprite.speed = 5;
