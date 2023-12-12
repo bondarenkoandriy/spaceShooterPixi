@@ -1,7 +1,7 @@
 export default class Asteroid {
   constructor(app) {
     this.app = app;
-    this.sprite = PIXI.Sprite.from("../assets/enemy/static.png");
+    this.sprite = PIXI.Sprite.from("assets/enemy/static.png");
     this.sprite.x = (Math.random() * this.app.screen.width) / 2;
     this.sprite.y = Math.random() * ((this.app.screen.height + 10) / 4);
     this.sprite.xSpeed = Math.random() * 2 - 1;
